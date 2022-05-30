@@ -7,6 +7,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -16,6 +20,19 @@ body {
 }
 
 /*-----------------------------Header-------------------------------------*/
+
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header-logo-blue {
+  color: #2196f3;
+}
 
 .header-link,
 .contacts-email {
@@ -60,6 +77,10 @@ body {
 }
 
 /*-----------------------------Hero-------------------------------------*/
+
+.hero {
+  background-color: #2f303a;
+}
 
 .hero-title {
   font-weight: 900;
@@ -139,13 +160,23 @@ body {
 
 /*-------------------------------Footer-----------------------------*/
 
-.footer-link {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #212121;
+.footer-addres:hover,
+.footer-addres:focus {
+  color: var(--accent-color);
+}
+
+.footer-email:focus,
+.footer-email:hover {
+  color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
 }
 
 .footer-addres {
@@ -154,15 +185,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background-color: #212121;
 }
 
-.footer-list-item {
+.footer-email {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: grey;
+  color: gray;
 }
 
 .footer-tel {
@@ -198,6 +228,8 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
+/*------------------------------Examples -----------------------------*/
 
 .examples-name {
   font-weight: 700;
